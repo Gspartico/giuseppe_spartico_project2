@@ -1,0 +1,20 @@
+$primaryColor: #345231;
+$secondaryColor: #709b6b;
+$backgroundColor: #f6f6f6;
+$accentColor: #e4a436;
+$fontColor: #1f1f1f;
+
+@mixin headingFont($size, $weight){
+    font-family: 'Abril Fatface', cursive;
+    color: #fff;
+    font-size: $size * 1px;
+    font-size: ($size / 10) * 1rem;
+    font-weight: $weight;
+}
+
+@mixin primaryFont($size, $weight){
+    font-family: 'Montserrat', sans-serif;
+    color: $fontColor;
+    font-weight: $weight;
+}
+
