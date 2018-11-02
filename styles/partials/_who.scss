@@ -1,0 +1,31 @@
+.who{
+    background: $backgroundColor;
+    margin: 0 auto;
+    text-align: center;
+
+    .who__Main{
+        display: flex;
+        flex-direction: column;
+
+    .who__headerTwo{
+        @include headingFont (42, 400);
+        color: $fontColor;
+        margin: 0;
+        text-align: center;
+
+    }
+
+    .who__content{
+        @include primaryFont(24, 400);
+        color: $fontColor;
+        text-align: center;
+    }
+
+    .button a{
+        margin-bottom: 200px;
+    }
+
+    }
+
+
+}    

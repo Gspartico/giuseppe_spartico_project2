@@ -131,3 +131,115 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+.wrapper {
+  max-width: 80%;
+  margin: 0 auto; }
+
+.button,
+.button a {
+  font-family: 'Abril Fatface', cursive;
+  color: #fff;
+  font-size: 20px;
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 300px;
+  height: 75px;
+  background-color: #e4a436;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #1f1f1f;
+  padding-top: 30px; }
+
+.mainHeader {
+  background-color: #345231;
+  width: 100%;
+  height: 70vh;
+  position: relative; }
+  .mainHeader .headerBar__list {
+    background-color: #345231;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px 10px; }
+  .mainHeader a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-size: 2rem;
+    color: #1f1f1f;
+    font-weight: 500;
+    color: #fff;
+    padding: 25px; }
+    .mainHeader a:hover {
+      color: #e4a436; }
+  .mainHeader .headerBar__headerTwo {
+    font-family: 'Abril Fatface', cursive;
+    color: #fff;
+    font-size: 42px;
+    font-size: 4.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0;
+    line-height: 10px; }
+  .mainHeader .headerOne {
+    font-family: 'Abril Fatface', cursive;
+    color: #fff;
+    font-size: 100px;
+    font-size: 10rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    text-align: center; }
+    .mainHeader .headerOne .headerOne::before {
+      content: " ";
+      background-image: url(./assets/circle-text.png); }
+
+.who {
+  background: #f6f6f6;
+  margin: 0 auto;
+  text-align: center; }
+  .who .who__Main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .who .who__Main .who__headerTwo {
+      font-family: 'Abril Fatface', cursive;
+      color: #fff;
+      font-size: 42px;
+      font-size: 4.2rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #1f1f1f;
+      margin: 0;
+      text-align: center; }
+    .who .who__Main .who__content {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+      font-size: 2.4rem;
+      color: #1f1f1f;
+      font-weight: 400;
+      color: #1f1f1f;
+      text-align: center; }
+    .who .who__Main .button a {
+      margin-bottom: 200px; }

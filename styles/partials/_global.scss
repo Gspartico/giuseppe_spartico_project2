@@ -10,11 +10,43 @@ $fontColor: #1f1f1f;
     font-size: $size * 1px;
     font-size: ($size / 10) * 1rem;
     font-weight: $weight;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 @mixin primaryFont($size, $weight){
     font-family: 'Montserrat', sans-serif;
+    font-size: $size * 1px;
+    font-size: ($size / 10) * 1rem;
     color: $fontColor;
     font-weight: $weight;
 }
 
+html{
+    font-size: 62.5%;
+}
+
+.wrapper{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+// .headerTwo{
+//     @include headingFont(42, 400);
+//     text-align: center;
+//     margin: 0;
+// }
+
+
+.button,
+.button a{
+    @include headingFont(20, 400);
+    width: 300px;
+    height: 75px;
+    background-color: $accentColor;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1px;
+    color: $fontColor;
+    padding-top: 30px;
+}
