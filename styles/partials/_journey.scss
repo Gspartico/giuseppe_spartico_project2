@@ -1,0 +1,34 @@
+.journey{
+    background: $backgroundColor;
+    
+
+    &__content{
+        display: flex;
+        align-items: flex-start;
+
+        
+        &__type{
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            @include primaryFont (20, 400);
+            margin: 100px;
+        }
+        
+        .journey__headerTwo{
+            @include headingFont(42, 400);
+            color: $fontColor;
+            margin: 0;
+        }
+
+        .journey__image{
+            width: 30%;
+            margin-top: 100px;
+        }
+
+        // .journey__image img{
+        //     width: 100%;
+        //     display: block;
+        // }
+    }
+}

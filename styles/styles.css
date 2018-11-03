@@ -180,6 +180,7 @@ html {
     font-size: 2rem;
     color: #1f1f1f;
     font-weight: 500;
+    line-height: 1.5;
     color: #fff;
     padding: 25px; }
     .mainHeader a:hover {
@@ -240,6 +241,7 @@ html {
       font-size: 2.4rem;
       color: #1f1f1f;
       font-weight: 400;
+      line-height: 1.5;
       color: #1f1f1f;
       text-align: center; }
     .who .who__Main .button {
@@ -272,6 +274,7 @@ html {
     font-size: 2rem;
     color: #1f1f1f;
     font-weight: 400;
+    line-height: 1.5;
     width: 50%; }
 
 .bucket {
@@ -296,6 +299,46 @@ html {
     font-size: 2rem;
     color: #1f1f1f;
     font-weight: 400;
+    line-height: 1.5;
     width: 50%; }
   .bucket__image img {
     width: 100%; }
+
+.journey {
+  background: #f6f6f6; }
+  .journey__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+    .journey__content__type {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      width: 70%;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      font-size: 2rem;
+      color: #1f1f1f;
+      font-weight: 400;
+      line-height: 1.5;
+      margin: 100px; }
+    .journey__content .journey__headerTwo {
+      font-family: 'Abril Fatface', cursive;
+      color: #fff;
+      font-size: 42px;
+      font-size: 4.2rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #1f1f1f;
+      margin: 0; }
+    .journey__content .journey__image {
+      width: 30%;
+      margin-top: 100px; }
