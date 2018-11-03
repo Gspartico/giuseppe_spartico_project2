@@ -51,3 +51,12 @@ html{
     color: $fontColor;
     padding-top: 20px;
 }
+
+.house__image{
+    background-image: url(../assets/home-image-5.jpg);
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

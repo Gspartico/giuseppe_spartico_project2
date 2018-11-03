@@ -157,6 +157,14 @@ html {
   color: #1f1f1f;
   padding-top: 20px; }
 
+.house__image {
+  background-image: url(../assets/home-image-5.jpg);
+  height: 50vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
 .mainHeader {
   background-color: #345231;
   width: 100%;
@@ -342,3 +350,20 @@ html {
     .journey__content .journey__image {
       width: 30%;
       margin-top: 100px; }
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .gallery .gallery__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    margin: 100px 0; }
