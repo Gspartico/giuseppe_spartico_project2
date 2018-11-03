@@ -1,0 +1,32 @@
+.bucket{
+    // background-color: linear-gradient(to left, $secondaryColor, $secondaryColor 50%, transparent 50%);
+
+    background: linear-gradient(to left, $secondaryColor, $secondaryColor 50%, transparent 50%);
+    height: 400px;
+    display: flex;
+    // display: flex;
+    // flex-wrap: wrap;
+    // align-items: center;
+    // position: relative;
+        &__content{
+            display: flex;
+            flex-direction: column;
+            @include primaryFont(20, 400);
+            width: 50%;
+        }
+        
+        &__image img{
+            // background-image: url(/assets/home-image-2.jpg);
+            width: 100%;
+            // position: absolute;
+            // top: 40%;
+            // right: 20%;
+    
+        }
+
+
+        &__header{
+
+        }
+
+}

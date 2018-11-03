@@ -38,14 +38,19 @@
             @include headingFont (100, 400);
             color: #fff;
             text-align: center;
+            position: relative;
             
 
-            .headerOne::before{
-                content: " ";
-                background-image: url(./assets/circle-text.png);
+            // .headerOne::before{
+            //     content: "";
+            //     background-image: url(../assets/circle-text.png);
+            //     height: 100px;
+            //     width: 100px;
+            //     position: absolute;
+            //     top: -50px;
 
                 
-            }
+            // }
         }
 
     }
