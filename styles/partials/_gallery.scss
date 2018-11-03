@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
 
-    .gallery__content{
+    &__content{
         display: flex;
         width: 100%;
         justify-content: space-evenly;

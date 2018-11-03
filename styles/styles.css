@@ -165,6 +165,32 @@ html {
   background-position: center;
   background-size: cover; }
 
+i {
+  background-color: #e4a436;
+  border-radius: 50%; }
+
+span {
+  margin-right: 20px; }
+
+.copyright {
+  background: #000; }
+
+.copyright p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-size: 2rem;
+  color: #1f1f1f;
+  font-weight: 400;
+  line-height: 1.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: #fff; }
+
 .mainHeader {
   background-color: #345231;
   width: 100%;
@@ -358,7 +384,7 @@ html {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
-  .gallery .gallery__content {
+  .gallery__content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -367,3 +393,50 @@ html {
     -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
     margin: 100px 0; }
+
+.information {
+  background-color: #f6f6f6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .information__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-size: 2rem;
+    color: #1f1f1f;
+    font-weight: 400;
+    line-height: 1.5; }
+  .information__headerThree {
+    font-family: 'Abril Fatface', cursive;
+    color: #fff;
+    font-size: 32px;
+    font-size: 3.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #1f1f1f;
+    margin: 0; }
+  .information__photo, .information__about, .information__blog, .information__contact {
+    width: 50%; }
+  .information__photo p,
+  .information__about p,
+  .information__blog p,
+  .information__contact p {
+    padding-left: 80px;
+    margin-top: 0; }
+  .information__photo, .information__about {
+    margin-top: 100px;
+    margin-bottom: 30px; }
+  .information__blog, .information__contact {
+    margin-bottom: 100px; }

@@ -32,13 +32,6 @@ html{
     margin: 0 auto;
 }
 
-// .headerTwo{
-//     @include headingFont(42, 400);
-//     text-align: center;
-//     margin: 0;
-// }
-
-
 .button,
 .button a{
     @include headingFont(20, 400);
@@ -59,4 +52,25 @@ html{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+i {
+    background-color: $accentColor;
+    border-radius: 50%;
+}
+
+span{
+    margin-right: 20px;
+}
+
+.copyright{
+	background: #000;
+}
+
+.copyright p{
+    @include primaryFont(20, 400);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    color: #fff;
 }
