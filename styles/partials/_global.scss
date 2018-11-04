@@ -32,6 +32,44 @@ html{
     margin: 0 auto;
 }
 
+.blog{
+    background: $backgroundColor;
+}
+
+.blogPost{
+    background: #fff;
+    max-width: 90%;;
+}
+
+.headerBar__list{
+            background-color: $primaryColor;
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            margin: 0 auto;
+            padding: 20px 10px;
+        }
+        
+        a{
+            text-decoration: none;
+            @include primaryFont (20, 500);
+            color: #fff;
+            padding: 25px;
+
+            
+            &:hover{
+                color: $accentColor;
+            }
+        }
+
+        .headerBar__headerTwo{
+            @include headingFont (42, 400);
+            color: #fff;
+            padding: 10px 20px;
+            margin: 0;
+            line-height: 10px;
+        }
+
 .button,
 .button a{
     @include headingFont(20, 400);

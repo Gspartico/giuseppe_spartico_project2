@@ -1,0 +1,12 @@
+.blogpost{
+    display: flex;
+
+    &__content{
+        width: 80%;
+    }
+
+    &__aside{
+        flex-direction: column;
+        width: 20%;
+    }
+}
