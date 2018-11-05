@@ -1,0 +1,52 @@
+.contactMe{
+    display: flex;
+    @include primaryFont (15, 400);
+    flex-direction: column;
+
+    &__body{
+        display: flex;
+    }
+    
+    &__aside{
+        background: #fff;
+        margin: 100px 50px 15% 0;
+        padding: 25px;
+        width: 30%;
+
+        p{
+            margin: 0;
+            line-height: 1.7;
+        }
+
+        a{
+            color: $fontColor;
+            font-weight: 700;
+            padding: 0;
+        }
+
+        ul{
+            padding: 0;
+        }
+
+        li{
+            list-style: none;
+        }
+
+        i{
+            text-decoration: none;
+            font-size: 3rem;
+            font-weight: 400;
+            list-style: none;
+            padding: 0;
+            background-color: #fff;
+            color: $primaryColor;
+            padding-right: 30px;
+        }
+    }
+
+
+}
+
+.contactMe__body form{
+    margin-top: 100px;
+}

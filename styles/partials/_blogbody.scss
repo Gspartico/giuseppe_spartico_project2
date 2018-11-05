@@ -89,43 +89,4 @@
         margin: 0 auto;
     }
 
-    // .blogPost__input{
-    //     display: flex;
-    //     flex-direction: row;
-    //     justify-content: flex-start;
-
-    //     &--name{
-    //         justify-content: flex-start;
-    //     }
-        
-    // }
-
-    form{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 68%;
-    }
-
-    input[type=text],
-    input[type=email]{
-        width: calc((100% / 2) - 10px);
-        height: 70px;
-        margin-bottom: 20px;
-        padding-left: 20px;
-    }
-
-    input[type=text]{
-        margin-right: 20px;
-    }
-
-    form .button{
-        width: 100%;
-        margin: 20px 0 100px 0;
-        height: 50px;
-    }
-
-    textarea{
-        padding: 20px 0 0 20px;
-    }
 }
