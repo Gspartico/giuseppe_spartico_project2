@@ -1,7 +1,6 @@
 .who{
     background: $backgroundColor;
-    margin: 0 auto;
-    text-align: center;
+    
 
     .who__Main{
         display: flex;
@@ -11,7 +10,7 @@
     .who__headerTwo{
         @include headingFont (42, 400);
         color: $fontColor;
-        margin: 0;
+        margin: 80px 0 0 0;
         text-align: center;
 
     }
@@ -23,7 +22,7 @@
     }
 
     .button{
-        margin-bottom: 200px;
+        margin-bottom: 100px;
         align-items: center;
     }
 
