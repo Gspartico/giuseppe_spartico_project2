@@ -905,3 +905,54 @@ textarea {
     float: none; }
   .journey__content__type {
     padding: 75px 35px; } }
+
+@media (max-width: 945px) {
+  .headerOne {
+    font-size: 8rem; }
+  .headerOne::before {
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    display: inherit;
+    top: 280px; }
+  .gallery {
+    display: none; }
+  .journey__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .journey__content__type {
+    text-align: center;
+    padding: 40px 30px; }
+    .journey__content__type a {
+      display: inline-block; }
+  .information__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-line-pack: center;
+    align-content: center; }
+  .information__headerThree {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 30px; }
+  .information__photo,
+  .information__about,
+  .information__blog,
+  .information__contact {
+    width: 100%; }
+  .information__photo,
+  .information__about {
+    margin-top: 40px;
+    margin-bottom: 0; }
+  .information__blog,
+  .information__contact {
+    margin-bottom: 40px; } }
