@@ -229,5 +229,123 @@
     }
 }
 
+@media (max-width:700px) {
 
+    .heading{
+        justify-content: flex-end;
+    }
 
+    .headerOne{
+        align-items: end;
+
+        &::before{
+            transform: rotate(63deg);
+            top: 500px;
+            left: 120px;
+            display: initial;
+            //Thank you to Mikey Couture for the idea and aid in transforming the image 
+        }
+    }
+
+    .favourite__content{
+        padding-top: 15px;
+    }
+
+    .favourite__headerThree{
+        margin: 15px 0;
+    }
+
+    .journey__content__type{
+        padding: 40px 0;
+    }
+}
+
+@media (max-width: 600px){
+    .information__photo p, 
+    .information__about p, 
+    .information__blog p, 
+    .information__contact p{
+        padding: 0;
+    }
+}
+
+@media (max-width: 540px){
+
+    .mainHeader i{
+        padding: 0 25px;
+    }
+
+    .headerOne{
+        font-size: 6rem;
+
+        &::before{
+            top: 525px;
+            left: 83px;
+        }
+    }
+}
+
+@media(max-width:480px){
+
+    .house__image{
+        display: none;
+    }
+
+    .journey__content__type{
+        padding-bottom: 0;
+    }
+
+    .information__content{
+        width: 100%;
+    }
+
+    .information__photo{
+        border-top: 10px solid $primaryColor;
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+
+    .information__photo p, 
+    .information__about p, 
+    .information__blog p, 
+    .information__contact p{
+        display: none;
+    }
+
+    .information__headerThree{
+        text-align: initial;
+    }
+
+    .information__about .information__headerThree{
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:380px){
+
+    .headerOne{
+        font-size: 4rem;
+
+        &::before{
+            width: 24px;
+            height: 86px;
+        }
+    }
+
+    .favourite__content a,
+    .bucket__content a,
+    .button a{
+        width: 250px;
+    }
+}
+
+@media(max-width:320px){
+
+    .information__headerThree{
+        font-size: 3.1rem;
+    }
+
+    .journey__content__type{
+        margin: 0;
+    }
+}
