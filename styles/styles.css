@@ -857,4 +857,51 @@ textarea {
   .heading img {
     display: none; }
   .headerOne::before {
-    top: 250px; } }
+    top: 250px; }
+  .favourite {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .favourite.wrapper {
+    max-width: 100%; }
+  .favourite__image {
+    text-align: center;
+    background-color: #345231; }
+  .favourite__image img {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    position: static;
+    width: 70%; }
+  .favourite__content {
+    width: 100%;
+    text-align: center;
+    padding: 25px 50px; }
+  .favourite__content a {
+    display: inline-block;
+    width: 300px; }
+  .bucket.wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse; }
+  .bucket.wrapper {
+    max-width: 100%; }
+  .bucket__image {
+    text-align: center;
+    background-color: #345231; }
+  .bucket__image img {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    position: static;
+    width: 70%; }
+  .bucket__content {
+    width: 100%;
+    text-align: center;
+    padding: 25px 50px; }
+  .bucket__content a {
+    display: inline-block;
+    width: 300px;
+    float: none; }
+  .journey__content__type {
+    padding: 75px 35px; } }
