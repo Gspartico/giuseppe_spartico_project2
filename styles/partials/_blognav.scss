@@ -9,9 +9,14 @@
     
 
     &__headerOne{
+        height: inherit;
+        display: flex;
+        align-items: flex-end;
+        line-height: 0.7;
+
+    }
+    &__headerOne h1{
         @include headingFont (80, 400);
-        margin-bottom: 0;
-        margin-top: 25%;
-        margin-left: 10%;
+        margin: 0 50px;
     }
 }

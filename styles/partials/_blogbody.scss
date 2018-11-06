@@ -15,7 +15,7 @@
 
     &__aside,
     &__links,
-    &__main{
+    &__content{
     background: #fff;
     margin-top: 100px;
     margin-bottom: 30px;
@@ -74,6 +74,11 @@
         color: $fontColor;
         width: 68%;
         margin-bottom: 30px;
+        border-bottom: 5px solid $secondaryColor;
+
+        &--noborder{
+            border-bottom: none;
+        }
     }
     
     &__postContent{
@@ -81,11 +86,6 @@
         align-items: flex-start;
         background: #fff;
         padding: 20px;
-
-        &--daisy{
-            border-bottom: 5px solid $secondaryColor;
-            padding-bottom: 10px;
-        }
     }
     
     &__postContent img{

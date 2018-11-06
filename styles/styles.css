@@ -136,7 +136,7 @@ html {
   font-size: 62.5%; }
 
 .wrapper {
-  max-width: 80%;
+  max-width: 1300px;
   margin: 0 auto; }
 
 .blog,
@@ -513,7 +513,7 @@ textarea {
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
-    margin: 50px 0; }
+    margin: 50px 50px; }
 
 .gallery__content img {
   width: calc((100% / 3) - 50px); }
@@ -579,6 +579,15 @@ textarea {
   -ms-flex-direction: column;
   flex-direction: column; }
   .blogHeader__headerOne {
+    height: inherit;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    line-height: 0.7; }
+  .blogHeader__headerOne h1 {
     font-family: 'Abril Fatface', cursive;
     color: #fff;
     font-size: 80px;
@@ -586,9 +595,7 @@ textarea {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-bottom: 0;
-    margin-top: 25%;
-    margin-left: 10%; }
+    margin: 0 50px; }
 
 .headerBar__list--accent a {
   color: #e4a436; }
@@ -613,7 +620,7 @@ textarea {
   .blogPost__content {
     border-bottom: 5px solid #709b6b;
     display: block; }
-  .blogPost__aside, .blogPost__links, .blogPost__main {
+  .blogPost__aside, .blogPost__links, .blogPost__content {
     background: #fff;
     margin-top: 100px;
     margin-bottom: 30px;
@@ -677,7 +684,10 @@ textarea {
     line-height: 1.5;
     color: #1f1f1f;
     width: 68%;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    border-bottom: 5px solid #709b6b; }
+    .blogPost__post--noborder {
+      border-bottom: none; }
   .blogPost__postContent {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -687,9 +697,6 @@ textarea {
     align-items: flex-start;
     background: #fff;
     padding: 20px; }
-    .blogPost__postContent--daisy {
-      border-bottom: 5px solid #709b6b;
-      padding-bottom: 10px; }
   .blogPost__postContent img {
     margin-left: 20px; }
   .blogPost__postContent p {
@@ -697,12 +704,28 @@ textarea {
     margin: 0 auto; }
 
 .contactHeader {
-  background-image: url(../assets/contact-image-1.jpg);
+  background-image: url(../assets/blog-image-1.jpg);
   width: 100%;
   height: 70vh;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
   .contactHeader__headerOne {
+    height: inherit;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    line-height: 0.7; }
+  .contactHeader__headerOne h1 {
     font-family: 'Abril Fatface', cursive;
     color: #fff;
     font-size: 80px;
@@ -710,8 +733,7 @@ textarea {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-top: 25%;
-    margin-left: 10%; }
+    margin: 0 50px; }
 
 .contactMe {
   display: -webkit-box;
