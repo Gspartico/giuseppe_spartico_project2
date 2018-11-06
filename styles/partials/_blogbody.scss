@@ -1,9 +1,17 @@
+.headerBar__list--accent a{
+    color: $accentColor;
+}
 
 .blogPost{
     display: flex;
     @include primaryFont (20,400);
     flex-direction: column;
     align-items: flex-end;
+
+    &__content{
+        border-bottom: 5px solid $secondaryColor;
+        display: block;
+    }
 
     &__aside,
     &__links,
@@ -60,33 +68,33 @@
         margin-left: 25px;
     } 
 
-    &__content--border{
-        border-bottom: 5px solid $secondaryColor;
-        margin-top: 30px;
-    }
-
-    .blogPost__postOne{
+    
+    &__post{
         @include primaryFont (20, 400);
         color: $fontColor;
         width: 68%;
         margin-bottom: 30px;
     }
     
-    .blogPost__postContent{
+    &__postContent{
         display: flex;
         align-items: flex-start;
         background: #fff;
-        // width: 50%;
         padding: 20px;
+
+        &--daisy{
+            border-bottom: 5px solid $secondaryColor;
+            padding-bottom: 10px;
+        }
     }
     
-    .blogPost__postContent img{
+    &__postContent img{
         margin-left: 20px;
     }
     
-    .blogPost__postContent p{
+    &__postContent p{
         padding-left: 30px;
         margin: 0 auto;
     }
-
+    
 }

@@ -1,5 +1,7 @@
 .journey{
     background: $backgroundColor;
+    display: flex;
+    justify-content: center;
     
 
     &__content{
@@ -10,25 +12,22 @@
         &__type{
             display: flex;
             flex-direction: column;
-            width: 70%;
             @include primaryFont (20, 400);
-            margin: 100px;
+            padding: 75px;
+            margin-left: 30px;
         }
         
+    }
+    
+}
         .journey__headerTwo{
             @include headingFont(42, 400);
             color: $fontColor;
             margin: 0;
+        }     
+    
+        .journey__image img{
+            margin-top: 70px;
+            position: relative;
+            box-shadow: 20px 20px $secondaryColor;
         }
-
-        .journey__image{
-            width: 30%;
-            margin-top: 100px;
-        }
-
-        // .journey__image img{
-        //     width: 100%;
-        //     display: block;
-        // }
-    }
-}

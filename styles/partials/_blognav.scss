@@ -4,10 +4,13 @@
     height: 70vh;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
     
 
     &__headerOne{
         @include headingFont (80, 400);
+        margin-bottom: 0;
         margin-top: 25%;
         margin-left: 10%;
     }

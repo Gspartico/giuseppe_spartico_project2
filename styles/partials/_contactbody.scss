@@ -18,20 +18,21 @@
             line-height: 1.7;
         }
 
+        
         a{
             color: $fontColor;
             font-weight: 700;
             padding: 0;
         }
-
+        
         ul{
             padding: 0;
         }
-
+        
         li{
             list-style: none;
         }
-
+        
         i{
             text-decoration: none;
             font-size: 3rem;
@@ -42,9 +43,13 @@
             color: $primaryColor;
             padding-right: 30px;
         }
+        
     }
-
-
+    
+    &__aside--number{
+        padding-top: 20px;
+    }
+    
 }
 
 .contactMe__body form{
