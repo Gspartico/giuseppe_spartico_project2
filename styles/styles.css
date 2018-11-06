@@ -314,12 +314,15 @@ textarea {
 .headerOne::before {
   content: url(../assets/circle-text.png);
   position: absolute;
-  top: 200px;
+  top: 180px;
   left: -50px; }
 
 .heading img {
   -webkit-box-shadow: 25px 15px #fff;
   box-shadow: 25px 15px #fff; }
+
+.mainHeader i {
+  display: none; }
 
 .who {
   background: #f6f6f6; }
@@ -816,3 +819,42 @@ textarea {
   .heading img {
     width: 60%;
     padding-left: 30px; } }
+
+@media (max-width: 1080px) {
+  .mainHeader {
+    background-image: url(../assets/home-image-1.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh; }
+  .mainHeader {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse; }
+  .mainHeader i {
+    display: block;
+    font-size: 5rem;
+    color: #e4a436;
+    background: none;
+    padding: 50px; }
+  .heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .headerOne {
+    margin: 0; }
+  .headerBar ul {
+    display: none; }
+  .heading img {
+    display: none; }
+  .headerOne::before {
+    top: 250px; } }
