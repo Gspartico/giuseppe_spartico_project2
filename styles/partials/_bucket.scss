@@ -6,6 +6,7 @@
     justify-content: center;
 
         &__headerThree{
+            margin-top: 0;
             margin-bottom: 20px;
             @include headingFont(32, 400);
             color: $fontColor;

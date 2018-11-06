@@ -5,8 +5,11 @@
 
     &__content{
         display: flex;
-        width: 100%;
         justify-content: space-evenly;
-        margin: 100px 50px;    
+        margin: 50px 0;   
     }
+
 }
+        .gallery__content img{
+            width: calc((100% / 3) - 50px);
+        }
