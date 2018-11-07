@@ -1,0 +1,14 @@
+.gallery{
+    display: flex;
+    align-items: center;
+
+    &__content{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px 50px;   
+    }
+
+    &__content img{
+        width: calc((100% / 3) - 50px);
+    }
+}

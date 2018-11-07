@@ -1,0 +1,133 @@
+@media(max-width:1160px){
+    
+    .contactMe__aside i{
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:1080px){
+
+    .contactMe{
+        width: 100%;
+        
+        & form{
+            margin-top: 30px;
+
+            & button{
+            margin-bottom: 30px;
+        }
+        }
+    
+        &__body{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    
+        &__aside{
+            margin-bottom: 20px;
+            width: 50%;
+            text-align: center;
+            margin-top: 50px;
+    
+            & i{
+                font-size: 3.5rem;
+                margin-left: 20px;
+            }
+        }
+    }
+
+    .contactHeader{
+        height: 50vh;
+        
+        & .headerBar ul{
+            display: flex;
+        }
+        
+        &__headerOne{
+            justify-content: center;
+            align-items: center;
+    
+            & h1{
+                font-size: 10rem;
+            }
+        }
+    }   
+}
+
+@media(max-width:845px){
+
+    .contactHeader__headerOne h1{
+        font-size: 7rem;
+    }
+
+    .contactHeader .headerBar ul{
+        display: none;
+    }
+
+    .contactHeader i{
+        display: block;
+        font-size: 5rem;
+        color: $accentColor;
+        background: none;
+        padding: 20px;
+        text-align: end;
+    }
+
+    .contactMe__aside{
+        margin: 50px 0 20px 0;
+        width: 100%;
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:680px){
+
+    .contactHeader__headerOne{
+        align-items: baseline;
+    }
+
+     .contactMe form{
+        width: 100%;
+    }
+
+    input[type="text"],
+    input[type="email"]{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media(max-width:555px){
+
+    .contactHeader{
+        height: 40vh;
+        
+        &__headerOne h1{
+           font-size: 5rem;
+       }
+    }
+}
+
+@media(max-width:430px){
+
+    .contactHeader h1{
+        line-height: 1;
+    }
+
+    .contactMe__aside{
+        font-size: 1.5rem;
+        padding: 0;
+
+        & i{
+            font-size: 2.5rem;
+        }
+    }
+}
+
+@media(max-width:380px){
+    
+    .contactMe__aside i{
+        font-size: 2.2rem;
+    }
+}

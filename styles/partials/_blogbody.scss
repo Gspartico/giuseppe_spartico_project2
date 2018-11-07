@@ -1,0 +1,110 @@
+.headerBar__list--accent a{
+    color: $accentColor;
+}
+
+.blogPost{
+    display: flex;
+    @include primaryFont (20,400);
+    flex-direction: column;
+    align-items: flex-end;
+
+    &__content{
+        border-bottom: 5px solid $secondaryColor;
+        display: block;
+    }
+
+    &__aside,
+    &__links,
+    &__content{
+    background: #fff;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding: 25px;
+    }  
+
+    &__container{
+        display: flex;
+    }
+
+    &__main{
+        width: 70%;
+        flex-direction: column;
+        margin-left: 30px;
+        padding-bottom: 0;
+    }
+
+    &__side{
+        width: 30%;
+        flex-direction: column;
+    }
+
+    &__aside,
+    &__links{
+        flex-direction: column;
+
+        &--green{
+            color: $secondaryColor;
+            padding-left: 5px;
+        }
+    }
+
+    &__links{
+        margin-top: 20px;
+    }
+
+    &__headerFour{
+        @include headingFont (24, 400);
+        color: $fontColor;
+        margin: 10px 0;
+    }
+
+    &__headerThree{
+        @include headingFont (30, 400);
+        color: $fontColor;
+    }
+
+    &__aside img{
+        width: 80%;
+        margin-left: 25px;
+    } 
+ 
+    &__post{
+        @include primaryFont (20, 400);
+        color: $fontColor;
+        width: 68%;
+        margin-bottom: 30px;
+        border-bottom: 5px solid $secondaryColor;
+
+        &--noborder{
+            border-bottom: none;
+        }
+    }
+    
+    &__postContent{
+        display: flex;
+        align-items: flex-start;
+        background: #fff;
+        padding: 20px;
+    }
+    
+    &__postContent img{
+        margin-left: 20px;
+    }
+    
+    &__postContent p{
+        padding-left: 30px;
+        margin: 0 auto;
+    }
+    
+    &__links a{
+        @include primaryFont(20, 400);
+        color: $fontColor;
+        margin: 0;
+        padding-bottom: 1px;
+    
+        &:hover{
+            color: $accentColor;
+            border-bottom: 2px solid $primaryColor;
+        }
+    }
+}

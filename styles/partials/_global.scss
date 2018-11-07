@@ -1,0 +1,181 @@
+$primaryColor: #345231;
+$secondaryColor: #709b6b;
+$backgroundColor: #f6f6f6;
+$accentColor: #e4a436;
+$fontColor: #1f1f1f;
+
+@mixin headingFont($size, $weight){
+    font-family: 'Abril Fatface', cursive;
+    color: #fff;
+    font-size: $size * 1px;
+    font-size: ($size / 10) * 1rem;
+    font-weight: $weight;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@mixin primaryFont($size, $weight){
+    font-family: 'Montserrat', sans-serif;
+    font-size: $size * 1px;
+    font-size: ($size / 10) * 1rem;
+    color: $fontColor;
+    font-weight: $weight;
+    line-height: 1.5;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.wrapper{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.blog,
+.contact{
+    background: $backgroundColor;
+}
+
+.headerBar__list{
+    background-color: $primaryColor;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+        
+a{
+    text-decoration: none;
+    @include primaryFont (20, 500);
+    color: #fff;
+    padding: 25px;
+
+            
+    &:hover{
+        color: $accentColor;
+    }
+}
+
+.headerBar__headerTwo{
+    @include headingFont (42, 400);
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0;
+    line-height: 10px;
+}
+
+.button a{
+    @include headingFont(20, 400);
+    width: 300px;
+    height: 50px;
+    background-color: $accentColor;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1px;
+    color: $fontColor;
+    padding-bottom: 50px;
+    display: block;
+}
+
+form .button{
+  @include headingFont(20, 400);
+    width: 300px;
+    height: 50px;
+    background-color: $accentColor;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1px;
+    color: $fontColor;
+}
+
+.house__image{
+    background-image: url(../assets/home-image-5.jpg);
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+i{
+    background-color: $accentColor;
+    border-radius: 50%;
+}
+
+span{
+    margin-right: 20px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 68%;
+}
+
+.blogHeader,
+.contactHeader{
+
+    background-image: url(../assets/blog-image-1.jpg);
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+    
+    & i{
+        display: none;
+    }
+    
+    &__headerOne{
+        height: inherit;
+        display: flex;
+        align-items: flex-end;
+        line-height: 0.7;
+        
+    }
+    
+    &__headerOne h1{
+        @include headingFont (80, 400);
+        margin: 0 50px;
+    }
+}
+
+input[type=text],
+input[type=email]{
+    width: calc((100% / 2) - 10px);
+    height: 70px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+input[type=text]{
+    margin-right: 20px;
+}
+
+form .button{
+    width: 100%;
+    margin: 20px 0 100px 0;
+    height: 50px;
+}
+
+textarea{
+    padding: 20px 0 0 20px;
+}
+
+.copyright{
+    background: #000;
+}
+            
+.copyright p{
+    @include primaryFont(20, 400);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    color: #fff;
+}

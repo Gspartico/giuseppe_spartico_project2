@@ -1,0 +1,360 @@
+@media (max-width: 1300px){
+
+    .mainHeader{
+        height: 80vh;
+    }
+
+    .headerOne{
+        font-size: 12rem;
+        margin-right: 0;
+        margin-left: 20px;
+        
+        &::before{
+            top: 160px;
+        }
+    }
+
+    .heading{
+        justify-content: space-evenly;
+        
+        & img{
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width: 1180px){
+
+    .wrapper{
+        max-width: 90%;
+    }
+
+    .mainHeader{
+        height: 60vh;
+    }
+
+    .heading{
+        justify-content: flex-end;
+        
+        & img{
+            width: 60%;
+            padding-left: 30px;
+        }
+    }
+
+    .headerOne{
+        font-size: 10rem;
+        
+        &::before{
+            top: 90px;
+        }
+    }           
+}
+
+@media(max-width: 1080px){
+
+    .mainHeader{
+        background-image: url(../assets/home-image-1.jpg);
+        background-size: cover;
+        background-repeat: repeat;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row-reverse;
+        
+        & i{
+            display: block;
+            font-size: 5rem;
+            color: $accentColor;
+            background: none;
+            padding: 50px;
+        }
+    }
+
+
+    .heading{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        
+        & img{
+           display: none;
+        }
+    }
+
+    .headerOne{
+        margin: 0;
+        
+        &::before{
+            top: 250px;
+        }
+    }
+
+    .headerBar ul{
+        display: none;
+    }
+
+    .favourite{
+        flex-direction: column;
+        
+        &.wrapper{
+            max-width: 100%;
+        }
+    
+        &__image{
+            text-align: center;
+            background-color: $primaryColor;
+            
+            & img{
+                box-shadow: none;
+                position: static;
+                width: 70%;    
+            }
+        }
+               
+        &__content{
+            width: 100%;
+            text-align: center;
+            padding: 25px 50px;
+        }
+        
+        &__content a{
+            display: inline-block;
+            width: 300px;
+        }
+    }
+
+    .bucket{
+
+        &.wrapper{
+            flex-direction: column-reverse;
+            max-width: 100%;
+        }
+    
+        &__image{
+            text-align: center;
+            background-color: $primaryColor;
+            
+        }
+        
+        .bucket__image img{
+            box-shadow: none;
+            position: static;
+            width: 70%;    
+            }
+           
+        &__content{
+            width: 100%;
+            text-align: center;
+            padding: 25px 50px;
+            
+        }
+        
+        .bucker__content a{
+            display: inline-block;
+            width: 300px;
+            float: none;
+        }
+    
+        .journey__content__type{
+            padding: 75px 35px;
+        }        
+    }
+    
+}
+
+@media (max-width:945px){
+
+    .headerOne{
+        font-size: 8rem;
+        
+        &::before{
+            background-size: cover;
+            height: 120px;
+            width: 120px;
+            display: inherit;
+            top: 280px;
+        }
+    }
+
+    .gallery{
+        display: none;
+    }
+
+    .journey__content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .journey__content__type{
+        text-align: center;
+        padding: 40px 30px;
+
+        & a{
+            display: inline-block;
+        }
+    }
+
+    .information{
+
+        &__content{
+            flex-direction: column;
+            align-content: center;
+        }
+    
+        &__headerThree{
+            flex-direction: column;
+            text-align: center;
+            padding-bottom: 30px;
+        }
+    
+        &__photo, 
+        &__about, 
+        &__blog, 
+        &__contact{
+            width: 100%;
+        }
+    
+        &__photo, 
+        &__about{
+            margin-top: 40px;
+            margin-bottom: 0;
+        }
+    
+        &__blog, 
+        &__contact{
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media (max-width:700px) {
+
+    .heading{
+        justify-content: flex-end;
+    }
+
+    .headerOne{
+        align-items: flex-end;
+
+        &::before{
+            transform: rotate(63deg);
+            top: 500px;
+            left: 120px;
+            display: initial;
+            //Thank you to Mikey Couture for the idea and aid in transforming the image 
+        }
+    }
+
+    .favourite{
+
+        &__content{
+            padding-top: 15px;
+        }
+    
+        &__headerThree{
+            margin: 15px 0;
+        }
+    
+    }
+    
+    .journey__content__type{
+        padding: 40px 0;
+    }
+}
+
+@media (max-width: 600px){
+
+    .information__photo p, 
+    .information__about p, 
+    .information__blog p, 
+    .information__contact p{
+        padding: 0;
+    }
+}
+
+@media (max-width: 540px){
+
+    .mainHeader i{
+        padding: 0 25px;
+    }
+
+    .headerOne{
+        font-size: 6rem;
+
+        &::before{
+            top: 525px;
+            left: 83px;
+        }
+    }
+}
+
+@media(max-width:480px){
+
+    .house__image{
+        display: none;
+    }
+
+    .journey__content__type{
+        padding-bottom: 0;
+    }
+
+    .information{
+
+        &__content{
+            width: 100%;
+        }
+    
+        &__photo{
+            border-top: 10px solid $primaryColor;
+            padding-top: 20px;
+            margin-top: 20px;
+        }
+    
+        &__photo p, 
+        &__about p, 
+        &__blog p, 
+        &__contact p{
+            display: none;
+        }
+    
+        &__headerThree{
+            text-align: initial;
+            margin-bottom: 0;
+        }
+    
+        &__about{
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media(max-width:380px){
+
+    .headerOne{
+        font-size: 4rem;
+
+        &::before{
+            width: 24px;
+            height: 86px;
+        }
+    }
+
+    .favourite__content a,
+    .bucket__content a,
+    .button a{
+        width: 250px;
+    }
+}
+
+@media(max-width:320px){
+
+    .information__headerThree{
+        font-size: 3rem;
+    }
+
+    .journey__content__type{
+        margin: 0;
+    }
+}

@@ -1,0 +1,56 @@
+.information{
+    background-color: $backgroundColor;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    &__content{
+        display: flex;
+        flex-wrap: wrap;
+        @include primaryFont(20, 400);
+    }
+
+    &__headerThree{
+        @include headingFont(32, 400);
+        color: $fontColor;
+        margin: 0;
+    }
+
+    &__photo,
+    &__about,
+    &__blog,
+    &__contact{
+        width: 50%;
+    }
+
+    &__photo p,
+    &__about p,
+    &__blog p,
+    &__contact p{
+        padding-left: 80px;
+        margin-top: 0;
+    }
+
+    &__photo,
+    &__about{
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+
+    &__blog,
+    &__contact{
+        margin-bottom: 100px;
+    }
+    
+    & a{
+        @include headingFont(32, 400);
+        color: $fontColor;
+        margin: 0;
+        padding-bottom: 3px;
+    
+        &:hover{
+            color: $accentColor;
+            border-bottom: 4px solid $primaryColor;
+        }
+    }
+} 
