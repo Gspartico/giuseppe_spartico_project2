@@ -1146,44 +1146,42 @@ textarea {
 @media (max-width: 1080px) {
   .contactMe {
     width: 100%; }
+    .contactMe form {
+      margin-top: 30px; }
+      .contactMe form button {
+        margin-bottom: 30px; }
+    .contactMe__body {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+    .contactMe__aside {
+      margin-bottom: 20px;
+      width: 50%;
+      text-align: center;
+      margin-top: 50px; }
+      .contactMe__aside i {
+        font-size: 3.5rem;
+        margin-left: 20px; }
   .contactHeader {
     height: 50vh; }
-  .contactHeader .headerBar ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-  .contactHeader__headerOne {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
-    .contactHeader__headerOne h1 {
-      font-size: 10rem; }
-  .contactMe form,
-  .contactMe__aside {
-    margin-top: 50px; }
-  .contactMe__body {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
-  .contactMe__aside {
-    margin-bottom: 20px;
-    width: 50%;
-    text-align: center; }
-    .contactMe__aside i {
-      font-size: 3.5rem;
-      margin-left: 20px; }
-  .contactMe form {
-    margin-top: 10px; }
-    .contactMe form button {
-      margin-bottom: 30px; } }
+    .contactHeader .headerBar ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    .contactHeader__headerOne {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .contactHeader__headerOne h1 {
+        font-size: 10rem; } }
 
 @media (max-width: 845px) {
   .contactHeader__headerOne h1 {
@@ -1217,8 +1215,8 @@ textarea {
 @media (max-width: 555px) {
   .contactHeader {
     height: 40vh; }
-  .contactHeader__headerOne h1 {
-    font-size: 5rem; } }
+    .contactHeader__headerOne h1 {
+      font-size: 5rem; } }
 
 @media (max-width: 430px) {
   .contactHeader h1 {
