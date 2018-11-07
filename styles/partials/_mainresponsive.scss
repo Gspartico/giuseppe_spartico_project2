@@ -233,7 +233,7 @@
     }
 
     .headerOne{
-        align-items: end;
+        align-items: flex-end;
 
         &::before{
             transform: rotate(63deg);
@@ -258,7 +258,7 @@
 }
 
 @media (max-width: 600px){
-    
+
     .information__photo p, 
     .information__about p, 
     .information__blog p, 
@@ -340,7 +340,7 @@
 @media(max-width:320px){
 
     .information__headerThree{
-        font-size: 3.1rem;
+        font-size: 3rem;
     }
 
     .journey__content__type{

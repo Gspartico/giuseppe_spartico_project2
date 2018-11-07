@@ -755,6 +755,8 @@ textarea {
     padding-top: 20px; }
   .contactMe__body form {
     margin-top: 100px; }
+  .contactMe textarea {
+    width: 100%; }
 
 @media (max-width: 1300px) {
   .mainHeader {
@@ -934,7 +936,7 @@ textarea {
   .headerOne {
     -webkit-box-align: end;
     -ms-flex-align: end;
-    align-items: end; }
+    align-items: flex-end; }
     .headerOne::before {
       -webkit-transform: rotate(63deg);
       -ms-transform: rotate(63deg);
@@ -999,9 +1001,13 @@ textarea {
 
 @media (max-width: 320px) {
   .information__headerThree {
-    font-size: 3.1rem; }
+    font-size: 3rem; }
   .journey__content__type {
     margin: 0; } }
+
+@media (max-width: 1180px) {
+  .blogPost {
+    font-size: 1.9rem; } }
 
 @media (max-width: 1150px) {
   .blogPost__links li {
@@ -1050,6 +1056,9 @@ textarea {
   .blogPost__links,
   .blogPost__aside {
     width: 40%; }
+  .blogPost__links li {
+    list-style: none;
+    font-size: 1.7rem; }
   .blogPost__main {
     width: 100%; }
   .blogPost__content {

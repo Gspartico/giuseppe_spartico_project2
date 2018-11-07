@@ -1,3 +1,9 @@
+@media(max-width:1180px){
+    .blogPost{
+        font-size: 1.9rem;
+    }
+}
+
 @media(max-width:1150px){
 
     .blogPost__links li{
@@ -45,6 +51,11 @@
     .blogPost__links,
     .blogPost__aside{
         width: 40%;
+    }
+
+    .blogPost__links li{
+        list-style: none;
+        font-size: 1.7rem;
     }
 
     .blogPost__main{
