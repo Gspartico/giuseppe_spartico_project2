@@ -1131,8 +1131,8 @@ textarea {
       margin-bottom: 30px; } }
 
 @media (max-width: 525px) {
-  .blogHeader__HeaderOne h1 {
-    font-size: 5rem; }
+  .blogHeader h1 {
+    line-height: 1; }
   .blogPost__links {
     display: block;
     width: 100%; }
@@ -1149,4 +1149,11 @@ textarea {
     width: 100%; }
   input[type="text"],
   input[type="email"] {
-    width: 100%; } }
+    width: 100%;
+    margin: 0; } }
+
+@media (max-width: 440px) {
+  .blogPost__links h4 {
+    font-size: 2.8rem; }
+  .blogPost__links li {
+    font-size: 1.7rem; } }
