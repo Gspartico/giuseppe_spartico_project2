@@ -7,13 +7,16 @@
     display: flex;
     flex-direction: column;
     
-
+    & i{
+        display: none;
+    }
+    
     &__headerOne{
         height: inherit;
         display: flex;
         align-items: flex-end;
         line-height: 0.7;
-
+        
     }
     &__headerOne h1{
         @include headingFont (80, 400);
