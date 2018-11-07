@@ -230,25 +230,6 @@ i {
 span {
   margin-right: 20px; }
 
-.copyright {
-  background: #000; }
-
-.copyright p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  font-size: 2rem;
-  color: #1f1f1f;
-  font-weight: 400;
-  line-height: 1.5;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin: 0 auto;
-  color: #fff; }
-
 form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -260,6 +241,44 @@ form {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   width: 68%; }
+
+.blogHeader,
+.contactHeader {
+  background-image: url(../assets/blog-image-1.jpg);
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .blogHeader i,
+  .contactHeader i {
+    display: none; }
+  .blogHeader__headerOne,
+  .contactHeader__headerOne {
+    height: inherit;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    line-height: 0.7; }
+  .blogHeader__headerOne h1,
+  .contactHeader__headerOne h1 {
+    font-family: 'Abril Fatface', cursive;
+    color: #fff;
+    font-size: 80px;
+    font-size: 8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 50px; }
 
 input[type=text],
 input[type=email] {
@@ -278,6 +297,25 @@ form .button {
 
 textarea {
   padding: 20px 0 0 20px; }
+
+.copyright {
+  background: #000; }
+
+.copyright p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-size: 2rem;
+  color: #1f1f1f;
+  font-weight: 400;
+  line-height: 1.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: #fff; }
 
 .mainHeader {
   background-color: #345231;
@@ -564,40 +602,6 @@ textarea {
   .information__blog, .information__contact {
     margin-bottom: 100px; }
 
-.blogHeader {
-  background-image: url(../assets/blog-image-1.jpg);
-  width: 100%;
-  height: 70vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column; }
-  .blogHeader i {
-    display: none; }
-  .blogHeader__headerOne {
-    height: inherit;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: flex-end;
-    line-height: 0.7; }
-  .blogHeader__headerOne h1 {
-    font-family: 'Abril Fatface', cursive;
-    color: #fff;
-    font-size: 80px;
-    font-size: 8rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin: 0 50px; }
-
 .headerBar__list--accent a {
   color: #e4a436; }
 
@@ -703,40 +707,6 @@ textarea {
   .blogPost__postContent p {
     padding-left: 30px;
     margin: 0 auto; }
-
-.contactHeader {
-  background-image: url(../assets/blog-image-1.jpg);
-  width: 100%;
-  height: 70vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column; }
-  .contactHeader i {
-    display: none; }
-  .contactHeader__headerOne {
-    height: inherit;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: flex-end;
-    line-height: 0.7; }
-  .contactHeader__headerOne h1 {
-    font-family: 'Abril Fatface', cursive;
-    color: #fff;
-    font-size: 80px;
-    font-size: 8rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin: 0 50px; }
 
 .contactMe {
   display: -webkit-box;

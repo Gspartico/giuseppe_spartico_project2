@@ -108,23 +108,40 @@ span{
     margin-right: 20px;
 }
 
-.copyright{
-	background: #000;
-}
-
-.copyright p{
-    @include primaryFont(20, 400);
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    color: #fff;
-}
 
 form{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 68%;
+}
+
+.blogHeader,
+.contactHeader{
+
+    background-image: url(../assets/blog-image-1.jpg);
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+    & i{
+        display: none;
+    }
+    
+    &__headerOne{
+        height: inherit;
+        display: flex;
+        align-items: flex-end;
+        line-height: 0.7;
+        
+    }
+    &__headerOne h1{
+        @include headingFont (80, 400);
+        margin: 0 50px;
+    }
 }
 
 input[type=text],
@@ -147,4 +164,16 @@ form .button{
 
 textarea{
     padding: 20px 0 0 20px;
+}
+
+.copyright{
+    background: #000;
+}
+            
+.copyright p{
+    @include primaryFont(20, 400);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    color: #fff;
 }
