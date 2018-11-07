@@ -126,7 +126,6 @@ form{
     background-size: cover;
     display: flex;
     flex-direction: column;
-
     
     & i{
         display: none;
@@ -139,7 +138,6 @@ form{
         line-height: 0.7;
         
     }
-    
     &__headerOne h1{
         @include headingFont (80, 400);
         margin: 0 50px;
