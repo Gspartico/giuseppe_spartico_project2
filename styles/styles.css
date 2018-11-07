@@ -132,6 +132,19 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+.visuallyhidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
+
 html {
   font-size: 62.5%; }
 
@@ -1014,10 +1027,6 @@ textarea {
     font-size: 1.7rem; } }
 
 @media (max-width: 1080px) {
-  .blogPost__links ul {
-    padding: 10px; }
-  .blogPost__links li {
-    font-size: 1.6rem; }
   .blogHeader .headerBar ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1028,7 +1037,11 @@ textarea {
     justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center; } }
+    align-items: center; }
+  .blogPost__links ul {
+    padding: 10px; }
+  .blogPost__links li {
+    font-size: 1.6rem; } }
 
 @media (max-width: 1000px) {
   .blogPost__container {
@@ -1053,8 +1066,7 @@ textarea {
     -ms-flex-align: center;
     align-items: center;
     text-align: center; }
-  .blogPost__links,
-  .blogPost__aside {
+  .blogPost__links, .blogPost__aside {
     width: 40%; }
   .blogPost__links li {
     list-style: none;
@@ -1071,21 +1083,21 @@ textarea {
 @media (max-width: 768px) {
   .blogHeader {
     height: 50vh; }
-  .blogHeader .headerBar ul {
-    display: none; }
-  .blogHeader i {
-    display: block;
-    font-size: 5rem;
-    color: #e4a436;
-    background: none;
-    padding: 20px;
-    text-align: end; }
-  .blogHeader__headerOne {
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start; }
-  .blogHeader__headerOne h1 {
-    font-size: 6rem; }
+    .blogHeader .headerBar ul {
+      display: none; }
+    .blogHeader i {
+      display: block;
+      font-size: 5rem;
+      color: #e4a436;
+      background: none;
+      padding: 20px;
+      text-align: end; }
+    .blogHeader__headerOne {
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start; }
+    .blogHeader__headerOne h1 {
+      font-size: 6rem; }
   .blogPost__side {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1098,8 +1110,7 @@ textarea {
       width: 70%; }
   .blogPost__links {
     display: none; }
-  .blogPost__postContent,
-  .blogPost__post {
+  .blogPost__postContent, .blogPost__post {
     display: none; }
   .blogPost form {
     width: 95%; }

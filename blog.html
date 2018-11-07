@@ -79,8 +79,11 @@
             </div>
         </article>
         <form action="" method="GET" class="blogPost__form" autocomplete="off" name="conactForm">
-            <input type="text" name="name" placeholder="Name" required="true">
-            <input type="email" name="email" placeholder="Email address" required="true">
+            <label class="visuallyhidden" for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Name" required="true">
+            <label class="visuallyhidden" for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email address" required="true">
+            <label class="visuallyhidden" for="comment">Comment:</label>
             <textarea name="Comment" id="" cols="80" rows="10" placeholder="Comment"></textarea>
             <button class="button">Post comment</button>
         </form>
