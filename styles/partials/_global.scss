@@ -38,33 +38,33 @@ html{
 }
 
 .headerBar__list{
-            background-color: $primaryColor;
-            display: flex;
-            list-style: none;
-            justify-content: center;
-            margin: 0 auto;
-            padding: 20px 10px;
-        }
+    background-color: $primaryColor;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
         
-        a{
-            text-decoration: none;
-            @include primaryFont (20, 500);
-            color: #fff;
-            padding: 25px;
+a{
+    text-decoration: none;
+    @include primaryFont (20, 500);
+    color: #fff;
+    padding: 25px;
 
             
-            &:hover{
-                color: $accentColor;
-            }
-        }
+    &:hover{
+        color: $accentColor;
+    }
+}
 
-        .headerBar__headerTwo{
-            @include headingFont (42, 400);
-            color: #fff;
-            padding: 10px 20px;
-            margin: 0;
-            line-height: 10px;
-        }
+.headerBar__headerTwo{
+    @include headingFont (42, 400);
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0;
+    line-height: 10px;
+}
 
 .button a{
     @include headingFont(20, 400);
@@ -99,7 +99,7 @@ form .button{
     background-size: cover;
 }
 
-i {
+i{
     background-color: $accentColor;
     border-radius: 50%;
 }
@@ -121,30 +121,30 @@ span{
 }
 
 form{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 68%;
-    }
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 68%;
+}
 
-    input[type=text],
-    input[type=email]{
-        width: calc((100% / 2) - 10px);
-        height: 70px;
-        margin-bottom: 20px;
-        padding-left: 20px;
-    }
+input[type=text],
+input[type=email]{
+    width: calc((100% / 2) - 10px);
+    height: 70px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
 
-    input[type=text]{
-        margin-right: 20px;
-    }
+input[type=text]{
+    margin-right: 20px;
+}
 
-    form .button{
-        width: 100%;
-        margin: 20px 0 100px 0;
-        height: 50px;
-    }
+form .button{
+    width: 100%;
+    margin: 20px 0 100px 0;
+    height: 50px;
+}
 
-    textarea{
-        padding: 20px 0 0 20px;
-    }
+textarea{
+    padding: 20px 0 0 20px;
+}

@@ -43,15 +43,14 @@
             color: $primaryColor;
             padding-right: 30px;
         }
-        
     }
     
     &__aside--number{
         padding-top: 20px;
     }
     
+    &__body form{
+        margin-top: 100px;
+    }
 }
 
-.contactMe__body form{
-    margin-top: 100px;
-}

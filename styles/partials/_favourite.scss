@@ -3,35 +3,34 @@
     text-align: left;
     position: relative;
         
-        &__image img{
-            position: relative;
-            width: 90%;
-            bottom: 45px;
-            right: 20px;
-            box-shadow: 20px 20px $secondaryColor, -300px 20px $secondaryColor;
+    &__image img{
+        position: relative;
+        width: 90%;
+        bottom: 45px;
+        right: 20px;
+        box-shadow: 20px 20px $secondaryColor, -300px 20px $secondaryColor;
     
-        }
+    }
 
-        &__content{
-            display: flex;
-            flex-direction: column;
-            @include primaryFont(20, 400);
-            width: 50%;
+    &__content{
+        display: flex;
+        flex-direction: column;
+        @include primaryFont(20, 400);
+        width: 50%;
 
-        }
+    }
         
-        &__content p{
-            margin-top: 0;
-        }
+    &__content p{
+        margin-top: 0;
+    }
 
-        &__headerThree{
-            @include headingFont(32, 400);
-            color: $fontColor;
-
+    &__headerThree{
+        @include headingFont(32, 400);
+        color: $fontColor;
+    }
             
-        }
-                &__content a{
-                    width: 200px;
-                }    
+    &__content a{
+        width: 200px;
+    }    
 
 }

@@ -18,22 +18,21 @@
     align-items: center;
     position: relative;
     
+    &::before{
+        content: url(../assets/circle-text.png);
+        position: absolute;
+        top: 190px;
+        left: -50px;
+    }
 }
-        .headerOne::before{
-            content: url(../assets/circle-text.png);
-            position: absolute;
-            top: 190px;
-            left: -50px;
-         }
 
+.heading img{
+    box-shadow: 25px 15px #fff;
+}
 
- .heading img{
-     box-shadow: 25px 15px #fff;
- }
-
- .mainHeader i{
-     display: none;
- }
+.mainHeader i{
+    display: none;
+}
 
 
 

@@ -22,7 +22,7 @@
     padding: 25px;
     }  
 
-    .check{
+    &__container{
         display: flex;
     }
 
@@ -67,8 +67,7 @@
         width: 80%;
         margin-left: 25px;
     } 
-
-    
+ 
     &__post{
         @include primaryFont (20, 400);
         color: $fontColor;
