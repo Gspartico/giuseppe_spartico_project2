@@ -41,4 +41,16 @@
     &__contact{
         margin-bottom: 100px;
     }
+    
+    & a{
+        @include headingFont(32, 400);
+        color: $fontColor;
+        margin: 0;
+        padding-bottom: 3px;
+    
+        &:hover{
+            color: $accentColor;
+            border-bottom: 4px solid $primaryColor;
+        }
+    }
 } 

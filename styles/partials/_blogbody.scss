@@ -96,4 +96,15 @@
         margin: 0 auto;
     }
     
+    &__links a{
+        @include primaryFont(20, 400);
+        color: $fontColor;
+        margin: 0;
+        padding-bottom: 1px;
+    
+        &:hover{
+            color: $accentColor;
+            border-bottom: 2px solid $primaryColor;
+        }
+    }
 }
